@@ -26,7 +26,7 @@ function App() {
       <Title mainTitle="Top List Songs" />
       <Singers singers={singers} filterSongs={filterSongs} />
       <List stran={songs} />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
